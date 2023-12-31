@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interfaz>
+    <campo tipo="etiqueta" texto="Indica tu nombre"></campo>
+    <campo tipo="entrada" texto=""></campo>
+    <campo tipo="etiqueta" texto="Selecciona el nivel de dificultad"></campo>
+    <campo tipo="desplegable">
+        <opciones valor1="Facil" valor2="Intermedio" valor3 ="Dificil"></opciones>
+    </campo>    
+    <campo tipo="etiqueta" texto="Selecciona un numero para tu jugador"></campo>
+    <campo tipo="spinbox"></campo>
+    <campo tipo="boton" texto="Agregar al equipo"></campo>
+    <campo tipo="tabla">
+        <columnas columna1="Nombre" columna2="Numero" columna3 ="Nivel de dificultad"></columnas>
+        <fila1  dato1="Jose" dato2="7" dato3="Intermedio"></fila1>
+        <fila2  dato1="Jorge" dato2="29" dato3="Dificil"></fila2>       
+    </campo> 
+</interfaz>
